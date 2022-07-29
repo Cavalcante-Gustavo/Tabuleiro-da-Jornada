@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+    font-weight: 700;
+    margin-left: 15px;
+    font-size: 150%;
+}
+
+.menu-superior {
+    margin-left: auto;
+}
+
+.menu-superior ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.menu-superior ul li {
+    list-style-type: none;
+    padding-left: 14px;
+    margin: 10px;
+    font-size: larger;
+    
+}
