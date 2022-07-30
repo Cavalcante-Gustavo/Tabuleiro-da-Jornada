@@ -1,7 +1,13 @@
 header {
+    width: 100%;
     display: flex;
     flex-direction: row;
-
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    color: azure;
+    
 }
 
 #title {
@@ -10,6 +16,7 @@ header {
     font-weight: 700;
     margin-left: 15px;
     font-size: 150%;
+    font-family: 'medievalsharpregular';
 }
 
 .menu-superior {
@@ -25,8 +32,61 @@ header {
 
 .menu-superior ul li {
     list-style-type: none;
-    padding-left: 14px;
+    padding-right: 65px;
     margin: 10px;
     font-size: larger;
+    font-weight: 700;
     
 }
+
+body {
+    background-image: url(../images/jogos-para-tavernas.png);
+    background-size: auto;
+    
+}
+
+.border-only {
+    margin-left: 1%;
+    margin-top: 2%;
+    color: azure;
+    width: 85%;
+    height: 100%;
+    border-radius: 1.5em;
+    margin: 9em auto 0 auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 2em rgb(69, 69, 69);
+}
+
+main {
+    margin: 3%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+
+
+
+
+
+
+
+
+/* unvisited link */
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
