@@ -111,12 +111,19 @@ ul {
 .lista-conteudos2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 150%;
     
 }
 
-
+.legendas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 150%;
+    font-family: 'medievalsharpregular';
+    
+}
 
 
 
