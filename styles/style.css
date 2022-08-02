@@ -1,5 +1,5 @@
 header {
-    width: 100%;
+    width: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -7,7 +7,17 @@ header {
     background-color: rgba(0, 0, 0, 0.7);
     text-decoration: none;
     color: azure;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -1%;
     
+}
+
+.logo {
+    padding-left: 40px;
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-bottom: 25px;
 }
 
 #title {
@@ -36,12 +46,13 @@ header {
     margin: 10px;
     font-size: larger;
     font-weight: 700;
+    font-family: 'medievalsharpregular';
     
 }
 
 body {
     background-image: url(../images/jogos-para-tavernas.png);
-    background-size: auto;
+    background-size: cover;
     
 }
 
@@ -49,10 +60,10 @@ body {
     margin-left: 1%;
     margin-top: 2%;
     color: azure;
-    width: 85%;
+    width: 90%;
     height: 100%;
     border-radius: 1.5em;
-    margin: 9em auto 0 auto;
+    margin: 6em auto 0 auto;
     background-color: rgba(0, 0, 0, 0.7);
     box-shadow: 0 0 2em rgb(69, 69, 69);
 }
@@ -61,9 +72,13 @@ main {
     margin: 3%;
     padding-top: 2%;
     padding-bottom: 1%;
+    text-align: justify;
 }
 
+h1 {
+    font-family: 'medievalsharpregular';
 
+}
 
 
 
